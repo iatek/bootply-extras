@@ -16,6 +16,7 @@ Because empty Bootstrap spans are boring, use these classes to group spanX's int
 
 Tiles
 ==============
+Pair them with the "flat" look to create Metro / Windows8 style boxy spans.
 
 
 Centering Helpers
@@ -28,4 +29,13 @@ but are useful for centering. Instead of using .offsetX to shift your .spanX, us
 - .offsetHalf2
 - .offsetHalf3
 - .offsetHalf4
+
+
+--------------------------------------------------------------------
+Don't just fiddle with Bootstrap. Apply it -- Bootply.com
+--------------------------------------------------------------------
+
+
+
+
 
