@@ -18,11 +18,11 @@ section{min-height:100%;}
 
 /* odd span centering helpers */
 @media (min-width:767px) { 
-  .row-fluid .offsetHalf {margin-left:8.5%}
-  .row-fluid .offsetHalf1 {margin-left:12.9%}
-  .row-fluid .offsetHalf2 {margin-left:21.6%}
-  .row-fluid .offsetHalf3 {margin-left:25.6%}
-  .row-fluid .offsetHalf4 {margin-left:29.4%
+  .row-fluid .offsetHalf {margin-left:8.5% !important;}
+  .row-fluid .offsetHalf1 {margin-left:12.9% !important;}
+  .row-fluid .offsetHalf2 {margin-left:21.6% !important;}
+  .row-fluid .offsetHalf3 {margin-left:25.6% !important;}
+  .row-fluid .offsetHalf4 {margin-left:29.4% !important;}
 }
 
 /* option tables */
