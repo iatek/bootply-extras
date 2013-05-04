@@ -1,0 +1,218 @@
+
+/* bootstrap mods */
+html,body{height:100%;}
+section{min-height:100%;}
+.fill{width:100%;height:100%;background-position:center;background-size:cover;}
+.pull-center{text-align:center;margin:0 auto !important;}
+.pull-middle{vertical-align:middle;padding-top:17% !important;}
+.pull-bottom{position:absolute;bottom:0;}
+.input-huge{font-size:150%;padding:8px;}
+.btn-huge{font-size:20px;padding:12px;}
+.pull-left.thumbnail {margin-right:5px !important;}
+.pull-right.thumbnail {margin-left:5px !important;}
+.responsive-image {max-width:90%; max-height:85%;}
+.light-color , .light-color a {color:#f7f7f7;text-decoration:none}
+.dark-color, .dark-color a{color:#444444;text-decoration:none}
+.blocky h1, .blocky h2 {background-color:rgba(1,240,1,0.7);display:inline;text-transform:none;font-weight:800;color:white;line-height:52px;}
+.blocky h1 span, .blocky h2 span{padding:10px;}
+
+/* odd span centering helpers */
+@media (min-width:767px) { 
+  .row-fluid .offsetHalf {margin-left:8.5%}
+  .row-fluid .offsetHalf1 {margin-left:12.9%}
+  .row-fluid .offsetHalf2 {margin-left:21.6%}
+  .row-fluid .offsetHalf3 {margin-left:25.6%}
+  .row-fluid .offsetHalf4 {margin-left:29.4%
+}
+
+/* option tables */
+.options-list {
+  overflow:auto;
+}
+
+.options-list ul {
+      list-style: none;
+    margin:0;
+}
+
+.options-list .span2,.options-list .span3,.options-list .span4,.options-list .span5 {
+    margin:0;
+}
+  
+.options-list li {
+  	display:block;
+  	border:1px solid #ddd;
+  	padding:6px;
+  	border-bottom-width:0px;
+}
+
+.options-center li {
+  	text-align:center;
+}
+
+.options-rounded li:first-child {
+  	border-top-left-radius:4px;
+    border-top-right-radius:4px;
+}
+
+.options-rounded li:last-child {
+  	border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+}
+
+.options-list li:last-child {
+  	border-bottom-width:1px;
+}
+
+.options-left li:first-child,.options-left li:last-child  {
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+}
+.options-right li:first-child,.options-right li:last-child {
+  	border-top-left-radius:0;
+    border-bottom-left-radius:0;
+}
+
+.options-head {
+	background-color:#f8f8f8;
+    font-weight:600;
+}
+
+li.options-head-primary {
+	background-color:#006dcc;
+    border-color:#004baa;
+    color:#f0f0f0;
+}
+  
+li.options-head-inverse {
+	background-color:#333;
+  	border-color:#000;
+    color:#f9f9f9;
+}
+
+.options-foot {
+	font-weight:600;
+}
+
+@media (min-width: 767px) { 
+
+  .options-zoom {
+    zoom:1.2;
+    margin-bottom:10px !important;
+  }
+  
+  .options-zoom-large {
+    zoom:1.3;
+  }
+
+  .options-shrink {
+    margin-top:15px !important;
+  }
+
+  .options-middle li:first-child {
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+  }
+  .options-middle li:last-child {
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+  }
+  
+  .options-list div:first-child li {
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+  }
+  .options-list div:last-child li {
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+  }
+}
+
+
+/* cards */
+.cards .span2, .cards .span3, .cards .span4 {
+  height:auto;
+  padding:10px;
+  margin-bottom:2px;
+  text-align:center;
+  overflow:auto;
+}
+
+.cards-bordered > div {
+  background-color:#e4e3d5;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+}
+
+.cards-bordered .card {
+  background-color:#fff;
+}
+  
+.cards-rounded > div {
+  border-radius:3px;
+}
+.cards-rounded .card {
+  border-radius:3px;
+}
+        
+.cards-borderless .card {
+  border-width:0;
+}
+  
+.card {
+  height:100%;
+  padding:12px;
+  margin:1%;
+  overflow:hidden;
+  text-align:center;
+}
+
+.card p {
+ padding:5px;
+ padding-left:10px;
+ padding-right:10px;
+}
+
+.cards-200 .card {
+ min-height:200px;
+}
+.cards-300 .card {
+ min-height:300px;
+}
+.cards-400 .card {
+ min-height:400px;
+}
+
+ul.card {
+ height:100%;
+ width:auto; 
+ border:1px solid #ddd;
+}
+
+@media (min-width: 767px) { 
+  ul.card {
+   width:auto;
+   display:table;
+  }
+}
+
+.card li {
+ height:100%;
+ width:100%; 
+ list-style:none;
+}
+
+@media (min-width: 767px) { 
+  .card li {
+   display:table-row;
+  }
+}
+
+.card .head {
+ height:auto;
+}
+.card .foot {
+ height:auto;
+ vertical-align:bottom;
+}
+   
+
